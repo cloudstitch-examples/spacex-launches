@@ -1,5 +1,6 @@
 ---
+layout: rocket
 permalink: /rockets/falcon
 ---
 
-# Falcon!
+# This is the page for the Falcon!

@@ -1,4 +1,5 @@
 ---
+layout: rocket
 permalink: /rockets/falcon-heavy
 ---
 
