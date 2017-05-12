@@ -26,7 +26,7 @@ layout: home
   {% capture rocketWidth %}36{% endcapture %}
   {% capture outerPadding %}50{% endcapture %}
 
-  <image x="0" y="0" width="100%" height="100%" xlink:href="svg/background.svg" />
+  <image x="0" y="0" width="100%" height="100%" xlink:href="{{ site.url }}/svg/background.svg" />
 
   {% for rocket in site.data.rockets.rockets %}
 
@@ -34,8 +34,8 @@ layout: home
     {% capture rocketWidths %}{{rocketWidth | times: index}}{% endcapture %}
     {% capture innerPadding %}{{pad | times: index}}{% endcapture %}
 
-    <a class="rocket" target="_blank" xlink:href="rockets/{{rocket.type}}">
-      <image x="{{rocketWidths | plus: innerPadding | plus: outerPadding}}px" y="{{y}}px" xlink:href="/svg/{{rocket.type}}.svg" width="{{rocket.width}}" height="{{rocket.height}}" />
+    <a class="rocket" target="_blank" xlink:href="{{ site.url }}/rockets/{{rocket.type}}">
+      <image x="{{rocketWidths | plus: innerPadding | plus: outerPadding}}px" y="{{y}}px" xlink:href="{{ site.url }}/svg/{{rocket.type}}.svg" width="{{rocket.width}}" height="{{rocket.height}}" />
       <!--<image x="10" {{pad}} {{rocketWidth}} {{ }} y="20" width="80" height="80" xlink:href="recursion.svg" />-->
     </a>
 
