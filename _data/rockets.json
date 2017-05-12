@@ -1,0 +1,29 @@
+{
+  "rockets": [
+    {
+      "name": "Rocket 1",
+      "key": "rocket1",
+      "left": "10px",
+      "width": "40px",
+      "height": "100px",
+      "type": "falcon"
+    },
+    {
+      "name": "Rocket 2",
+      "key": "rocket2",
+      "left": "100px",
+      "width": "40px",
+      "height": "100px",
+      "type": "falcon-heavy"
+    },
+    {
+      "name": "Rocket 2",
+      "key": "rocket2",
+      "left": "100px",
+      "width": "40px",
+      "height": "100px",
+      "type": "falcon-heavy"
+    }
+
+  ]
+}
